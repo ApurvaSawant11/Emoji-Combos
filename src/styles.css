@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap");
+
+:root {
+  --grid-color: #1e40af;
+  --primary-color: #1939a5;
+  --secondary-color: #eff6ff;
+  --list-bg-color: #f3f4f6;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--secondary-color);
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+#about {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 0.3rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.des {
+  margin-top: 1rem;
+}
+
+input {
+  width: 60%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1.5em;
+}
+
+#meaning {
+  font-size: 1.4rem;
+}
+
+#meaning-div {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1em;
+  padding: 1em;
+  width: 50%;
+  background-color: var(--grid-color);
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+.list-emoji {
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+  border-radius: 0.5rem;
+  background-color: var(--list-bg-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
